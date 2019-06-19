@@ -3,7 +3,7 @@ services:
     frontend:
         image: 172.12.0.1:5000/${VERSION}
         ports:
-            -80:80
+            - 80:80
         deploy:
             replicas: 1
             restart_policy:
